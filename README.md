@@ -5,7 +5,12 @@
 ### 基于AlphaZero的五子棋AI程序
 
 此项目为熟悉pytorch后一个练手的项目，也是实验室项目的一小部分，参考模仿别人的工作做的一个五子棋AI程序，训练3k轮后...嗯...像一个可爱的小学生水平，会懂得堵我，但稍加计谋就被骗过去了 :(
-
+<p align="center">
+    <img src="net.png" alt="Demo">
+</p>
+<p align="center">
+    <img src="loss.png" alt="Demo">
+</p>
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
