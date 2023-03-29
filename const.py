@@ -1,0 +1,46 @@
+import torch
+
+# GOMOKU
+SPACE = 0.
+BLACK = 1.
+WHITE = 2.
+SIZE = 8
+
+# MCTS
+# UCT
+CPUCT = 5
+# 模拟次数
+# 400
+MCTSSIMNUM = 300
+HISTORY = 3
+# 温度有关
+TEMPTRIG = 8
+
+# Dirichlet
+DLEPS = .25
+DLALPHA = .03
+
+# Net params
+IND = HISTORY * 2 + 2
+OUTD = SIZE**2
+# BLOCKS = 10
+BLOCKS = 5
+RES_BLOCK_FILLTERS = 128
+
+# Train params
+USECUDA = torch.cuda.is_available()
+EPOCHS = 5
+GAMETIMES = 3000
+# 50
+CHECKOUT = 50
+# 20
+EVALNUMS = 15
+FLASH = True
+MINIBATCH = 512
+WINRATE = .55
+TRAINLEN = 10000
+
+# Optim
+# 0.03
+LR = 0.01
+L2 = 0.0001
