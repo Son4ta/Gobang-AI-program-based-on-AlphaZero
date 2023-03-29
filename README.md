@@ -11,6 +11,7 @@
 <p align="center">
     <img src="loss.png" alt="Demo">
 </p>
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
